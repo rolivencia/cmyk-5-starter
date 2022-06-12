@@ -1,6 +1,6 @@
 # CMYK 5 Starter
 
-React - Email Sign Up with Verification, Authentication & Forgot Password
+Proyecto starter para los equipos participantes de la iniciativa CMYK 5, de [FrontendCafé](https://frontend.cafe).
 
 ## Estructura del proyecto
 
