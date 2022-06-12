@@ -1,7 +1,7 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
-
 module.exports = {
+    entry: './frontend/src/index.jsx',
     mode: 'development',
     module: {
         rules: [
@@ -26,14 +26,16 @@ module.exports = {
             '@': path.resolve(__dirname, 'src/'),
         }
     },
+    output: {
+        path: path.resolve(__dirname, '../public'),
+    },
     plugins: [new HtmlWebpackPlugin({
-        template: './src/index.html'
+        template: './frontend/src/index.html'
     })],
     devServer: {
         historyApiFallback: true
     },
     externals: {
-        // global app config object
         config: JSON.stringify({
             apiUrl: 'http://localhost:4000'
         })
