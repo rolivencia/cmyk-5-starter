@@ -1,7 +1,9 @@
 const express = require('express');
 const app = express();
-const port = 3000;
 const path = require('path');
+
+// Asigna el puerto correspondiente según se haya asignado o no uno.
+const port = process.env.PORT ? process.env.PORT : 3000;
 
 // Servir los archivos estáticos dentro del 'public'
 app.use(express.static(path.join(__dirname, '../public')));
