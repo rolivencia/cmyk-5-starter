@@ -1,9 +1,9 @@
 {
-    "name": "react-signup-verification-boilerplate",
-    "version": "1.0.0",
+    "name": "cmyk-5-starter",
+    "version": "0.0.1",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cornflourblue/react-signup-verification-boilerplate.git"
+        "url": "https://github.com/rolivencia/cmyk-5-starter"
     },
     "license": "MIT",
     "scripts": {
