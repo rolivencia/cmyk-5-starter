@@ -40,3 +40,6 @@ typings
 # dist folders
 dist
 public
+
+# IntelliJ IDEA
+.idea
